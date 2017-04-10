@@ -1,5 +1,5 @@
 <img src="http://i.imgur.com/8Idu6nB.png" width="80px" />
-<h1>soundcloud-Player</h1>
+<h1>Soundcloud-Player</h1>
 
 soundcloud.com player using WebKit.
 
