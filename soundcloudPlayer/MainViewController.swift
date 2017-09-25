@@ -12,12 +12,12 @@ import WebKit
 class MainViewController: NSViewController {
 
     @IBOutlet weak var webView: WebView!
+    let url = URL(string: "https://soundcloud.com/stream")!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let url = URL(string: "https://soundcloud.com/stream")!
         let req = URLRequest(url: url)
         webView.mainFrame.load(req)
     }
