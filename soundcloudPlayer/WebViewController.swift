@@ -9,17 +9,20 @@
 import Cocoa
 import WebKit
 
-class MainViewController: NSViewController {
+class WebViewController: NSViewController {
 
+    // MARK: Constants
+    let soundCloudUrl = URL(string: "https://soundcloud.com/stream")!
+
+    // MARK: Outlets
     @IBOutlet weak var webView: WebView!
-    let url = URL(string: "https://soundcloud.com/stream")!
 
+    // MARK: - View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
 
-        let req = URLRequest(url: url)
-        webView.mainFrame.load(req)
+        let reqest = URLRequest(url: soundCloudUrl)
+        webView.mainFrame.load(reqest)
     }
 
 }

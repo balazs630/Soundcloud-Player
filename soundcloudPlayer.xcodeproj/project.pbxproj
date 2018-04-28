@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC1413D01E66D051008A0F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1413CF1E66D051008A0F33 /* AppDelegate.swift */; };
-		AC1413D21E66D051008A0F33 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1413D11E66D051008A0F33 /* MainViewController.swift */; };
+		AC1413D21E66D051008A0F33 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1413D11E66D051008A0F33 /* WebViewController.swift */; };
 		AC1413D41E66D051008A0F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1413D31E66D051008A0F33 /* Assets.xcassets */; };
 		AC1413D71E66D051008A0F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1413D51E66D051008A0F33 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		AC1413CC1E66D051008A0F33 /* soundCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1413CF1E66D051008A0F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC1413D11E66D051008A0F33 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AC1413D11E66D051008A0F33 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		AC1413D31E66D051008A0F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1413D61E66D051008A0F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC1413D81E66D051008A0F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			children = (
 				AC1413DE1E66D342008A0F33 /* soundcloudPlayer.entitlements */,
 				AC1413CF1E66D051008A0F33 /* AppDelegate.swift */,
-				AC1413D11E66D051008A0F33 /* MainViewController.swift */,
+				AC1413D11E66D051008A0F33 /* WebViewController.swift */,
 				AC1413D31E66D051008A0F33 /* Assets.xcassets */,
 				AC1413D51E66D051008A0F33 /* Main.storyboard */,
 				AC1413D81E66D051008A0F33 /* Info.plist */,
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1413D21E66D051008A0F33 /* MainViewController.swift in Sources */,
+				AC1413D21E66D051008A0F33 /* WebViewController.swift in Sources */,
 				AC1413D01E66D051008A0F33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
