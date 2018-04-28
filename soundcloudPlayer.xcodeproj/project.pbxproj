@@ -53,14 +53,46 @@
 		AC1413CE1E66D051008A0F33 /* soundcloudPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				AC1413DE1E66D342008A0F33 /* soundcloudPlayer.entitlements */,
 				AC1413CF1E66D051008A0F33 /* AppDelegate.swift */,
-				AC1413D11E66D051008A0F33 /* WebViewController.swift */,
-				AC1413D31E66D051008A0F33 /* Assets.xcassets */,
-				AC1413D51E66D051008A0F33 /* Main.storyboard */,
-				AC1413D81E66D051008A0F33 /* Info.plist */,
+				AC5EF5182094FDAB002E6ABF /* View Controllers */,
+				ACF7CFDD2095032A00317715 /* Storyboards */,
+				AC5EF5172094FD6C002E6ABF /* Resources */,
+				AC5EF5162094FD37002E6ABF /* Supporting Files */,
 			);
 			path = soundcloudPlayer;
+			sourceTree = "<group>";
+		};
+		AC5EF5162094FD37002E6ABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC1413DE1E66D342008A0F33 /* soundcloudPlayer.entitlements */,
+				AC1413D81E66D051008A0F33 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC5EF5172094FD6C002E6ABF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC1413D31E66D051008A0F33 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC5EF5182094FDAB002E6ABF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC1413D11E66D051008A0F33 /* WebViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ACF7CFDD2095032A00317715 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AC1413D51E66D051008A0F33 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,9 +317,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = soundcloudPlayer/soundcloudPlayer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "soundcloudPlayer/Supporting Files/soundcloudPlayer.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = soundcloudPlayer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/soundcloudPlayer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "balazs630.soundcloud-Player";
 				PRODUCT_NAME = soundCloud;
@@ -300,9 +332,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = soundcloudPlayer/soundcloudPlayer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "soundcloudPlayer/Supporting Files/soundcloudPlayer.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = soundcloudPlayer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/soundcloudPlayer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "balazs630.soundcloud-Player";
 				PRODUCT_NAME = soundCloud;
