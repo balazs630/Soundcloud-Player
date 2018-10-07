@@ -10,7 +10,6 @@ import Cocoa
 import WebKit
 
 class WebViewController: NSViewController {
-
     // MARK: Constants
     let soundCloudUrl = URL(string: "https://soundcloud.com/stream")!
 
@@ -20,9 +19,14 @@ class WebViewController: NSViewController {
     // MARK: - View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupWebView()
+    }
+}
 
+// MARK: - Screen configuration
+extension WebViewController {
+    func setupWebView() {
         let reqest = URLRequest(url: soundCloudUrl)
         webView.mainFrame.load(reqest)
     }
-
 }

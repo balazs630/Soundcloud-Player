@@ -11,17 +11,13 @@ import WebKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
     lazy var windows = [NSWindow]()
 
     func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
         if !flag {
-            for window in sender.windows {
-                window.makeKeyAndOrderFront(self)
-            }
+            sender.windows.forEach { $0.makeKeyAndOrderFront(self) }
         }
 
         return true
     }
-
 }
