@@ -6,8 +6,7 @@
 //  Copyright © 2017. Horváth Balázs. All rights reserved.
 //
 
-import Cocoa
-import WebKit
+import AppKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
